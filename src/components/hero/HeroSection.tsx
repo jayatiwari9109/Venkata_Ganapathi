@@ -269,7 +269,7 @@ export default function HeroSection() {
               </a>
 
               <a
-                href={`tel:${HOSPITAL_INFO?.phone || "+919876543210"}`}
+              href={`tel:${HOSPITAL_INFO?.primaryPhone || "+919876543210"}`}
                 className="px-7 py-4 rounded-2xl bg-white hover:bg-slate-100 text-slate-800 font-bold text-xs sm:text-sm tracking-wide border border-slate-200/90 shadow-sm transition-all flex items-center space-x-2"
               >
                 <PhoneCall className="w-4 h-4 text-teal-600" />
